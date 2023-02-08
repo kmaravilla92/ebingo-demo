@@ -1,0 +1,41 @@
+.balls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: -4px -4px 20px;
+}
+
+.ball {
+    flex: 0 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin: 4px;
+    border: 1px solid #000;
+    border-radius: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px -10px -10px;
+}
+
+.card {
+    flex: 0 0 25%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.card-cell {
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.card-cell--matched {
+    background-color: #f00;
+    color: #fff;
+}
